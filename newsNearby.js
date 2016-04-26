@@ -16,8 +16,6 @@ function getUserPosition(pos) {
 
 function parseAddressComponents(response) {
 
-	console.log(response);
-	
 	var locationTypeArray = ["locality", "political"];
 	var searchedLocations = [];
 	
@@ -52,8 +50,6 @@ function fetchNEWSResults(locationName, index) {
 
 function renderNEWSArticles(response, searchCriteria, index) {
 	
-	//console.log(response);
-
 	var newsArray = response.responseData.results;
 
 	var searchCriteriaPreviousIndex = getPreviousIndex(index);
