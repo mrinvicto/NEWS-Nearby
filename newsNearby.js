@@ -1,3 +1,4 @@
+// Dummy commit
 $(function() {
 	navigator.geolocation.getCurrentPosition(getUserPosition);
 });
